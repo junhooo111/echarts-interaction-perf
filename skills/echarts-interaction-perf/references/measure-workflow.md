@@ -45,8 +45,7 @@ slower and noisier, so quote absolute numbers as reference values only.
 A chart wrapper can re-run option builders on every parent render. Use the React Profiler to count commits per
 gesture, and count how many times your option-builder function runs. Do not store pointer-driven values (cursor x,
 hovered value) in React state: a `setState` per pointer event re-renders on every move. Write them to a DOM node or a
-ref instead. Reducing "how many charts recompute when one
-group changes" often matters as much as any ECharts setting.
+ref instead. Reducing how many charts recompute when one group changes often matters as much as any ECharts setting.
 
 ## Using the script
 
