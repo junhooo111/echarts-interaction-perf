@@ -1,0 +1,3349 @@
+{
+  "env": {
+    "date": "2026-11-20",
+    "os": "Windows_NT 10.0.26200 (x64)",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "cores": 12,
+    "memoryGB": 32,
+    "node": "v24.18.0",
+    "chrome": "157.0.8103.79",
+    "runsPerConfig": 3,
+    "quick": false
+  },
+  "results": [
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 10000,
+        "iterations": 200
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 1,
+            "mean": 0.5835000000055879,
+            "min": 0.2999999988824129,
+            "max": 1.200000001117587,
+            "batched": false,
+            "allocBytesPerCall": 1061312
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.0000125,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 0.8000000007450581,
+            "mean": 0.5140000000037253,
+            "min": 0.2999999988824129,
+            "max": 1.200000001117587,
+            "batched": false,
+            "allocBytesPerCall": 1061312
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 0.8000000007450581,
+            "mean": 0.5105000000074505,
+            "min": 0.2999999988824129,
+            "max": 1,
+            "batched": false,
+            "allocBytesPerCall": 1061312
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000014999999990686775,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 50000,
+        "iterations": 100
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.400000000372529,
+            "p95": 14.599999999627471,
+            "mean": 4.6930000000074505,
+            "min": 2.199999999254942,
+            "max": 21,
+            "batched": false,
+            "allocBytesPerCall": 5318451
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.0000150000000372529,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.300000000745058,
+            "p95": 12.100000001490116,
+            "mean": 4.206000000014901,
+            "min": 1.900000000372529,
+            "max": 16.899999998509884,
+            "batched": false,
+            "allocBytesPerCall": 5318451
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000010000000055879354,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.399999998509884,
+            "p95": 11.800000000745058,
+            "mean": 4.31,
+            "min": 1.900000000372529,
+            "max": 17.59999999962747,
+            "batched": false,
+            "allocBytesPerCall": 5318451
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000009999999962747097,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 200000,
+        "iterations": 40
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 21.09999999962747,
+            "p95": 37.19999999925494,
+            "mean": 20.942499999981372,
+            "min": 9.299999998882413,
+            "max": 37.30000000074506,
+            "batched": false,
+            "allocBytesPerCall": 19992354
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002999999998137355,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000009999999962747097,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 17.899999998509884,
+            "p95": 35.69999999925494,
+            "mean": 18.304999999981373,
+            "min": 8.900000000372529,
+            "max": 40.90000000037253,
+            "batched": false,
+            "allocBytesPerCall": 19991461
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00019999999925494194,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00019999999925494194,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 10.899999998509884,
+            "p95": 36.5,
+            "mean": 18.70749999997206,
+            "min": 9.200000001117587,
+            "max": 43.80000000074506,
+            "batched": false,
+            "allocBytesPerCall": 19990729
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.0002000000011175871,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.0002000000011175871,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 500000,
+        "iterations": 20
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 48.59999999962747,
+            "p95": 82.19999999925494,
+            "mean": 49.634999999962744,
+            "min": 40,
+            "max": 82.19999999925494,
+            "batched": false,
+            "allocBytesPerCall": 49101186
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00019999999925494194,
+            "mean": 0.000019999999925494194,
+            "min": 0,
+            "max": 0.00019999999925494194,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.0000150000000372529,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 44.5,
+            "p95": 83.30000000074506,
+            "mean": 50.195000000018624,
+            "min": 42.5,
+            "max": 83.30000000074506,
+            "batched": false,
+            "allocBytesPerCall": 49101186
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000009999999962747097,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 42.5,
+            "p95": 82.40000000037253,
+            "mean": 47.87999999998137,
+            "min": 39.79999999888241,
+            "max": 82.40000000037253,
+            "batched": false,
+            "allocBytesPerCall": 49101186
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000015000000037252904,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 4,
+        "points": 50000,
+        "iterations": 60
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 18,
+            "p95": 29.299999998882413,
+            "mean": 18.01333333331471,
+            "min": 9.199999999254942,
+            "max": 34.80000000074506,
+            "batched": false,
+            "allocBytesPerCall": 19634053
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.0002000000011175871,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.0002000000011175871,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.0000049999999813735485,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 18.5,
+            "p95": 33.69999999925494,
+            "mean": 18.88666666665425,
+            "min": 8.900000000372529,
+            "max": 36.90000000037253,
+            "batched": false,
+            "allocBytesPerCall": 19637473
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.0002000000011175871,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.0002000000011175871,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00019999999925494194,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00019999999925494194,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 19,
+            "p95": 30.600000001490116,
+            "mean": 18.844999999987582,
+            "min": 8.799999998882413,
+            "max": 36.899999998509884,
+            "batched": false,
+            "allocBytesPerCall": 19636257
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.0000150000000372529,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 10000,
+        "iterations": 100
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.099999999627471,
+              "p95": 4.199999999254942,
+              "mean": 3.217999999988824,
+              "min": 2.799999998882413,
+              "max": 4.399999998509884,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.300000000745058,
+              "mean": 2.959000000003725,
+              "min": 2.799999998882413,
+              "max": 3.600000001490116
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.700000001117587,
+              "mean": 2.9969999999925494,
+              "min": 2.699999999254942,
+              "max": 4.099999999627471,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.400000000372529,
+              "mean": 2.977000000011176,
+              "min": 2.799999998882413,
+              "max": 3.5
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.00030000000074505807,
+              "mean": 0.00012000000001862645,
+              "min": 0,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.2999999988824129,
+              "p95": 0.40000000037252903,
+              "mean": 0.2669999999925494,
+              "min": 0.19999999925494194,
+              "max": 0.6999999992549419
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.00030000000074505807,
+              "mean": 0.00025000000000000006,
+              "min": 0.00019999999925494194,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.09999999962747097,
+              "mean": 0.02199999999254942,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.099999999627471,
+              "p95": 3.900000000372529,
+              "mean": 3.1590000000037253,
+              "min": 2.799999998882413,
+              "max": 4.799999998882413,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.599999999627471,
+              "mean": 3.0040000000037255,
+              "min": 2.699999999254942,
+              "max": 3.900000000372529
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.699999999254942,
+              "mean": 3.0090000000037254,
+              "min": 2.699999999254942,
+              "max": 4.099999999627471,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3,
+              "p95": 3.5,
+              "mean": 3.05,
+              "min": 2.799999998882413,
+              "max": 3.799999998882413
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.0003999999985098839,
+              "mean": 0.00018999999994412066,
+              "min": 0,
+              "max": 0.0003999999985098839,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.30000000074505806,
+              "p95": 0.599999999627471,
+              "mean": 0.29699999999254945,
+              "min": 0.09999999962747097,
+              "max": 0.7000000011175871
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00030000000074505807,
+              "p95": 0.000599999999627471,
+              "mean": 0.0003000000000000001,
+              "min": 0.00019999999925494194,
+              "max": 0.000599999999627471,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.04199999999254942,
+              "min": 0,
+              "max": 0.19999999925494194
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.199999999254942,
+              "p95": 4.300000000745058,
+              "mean": 3.303999999985099,
+              "min": 2.899999998509884,
+              "max": 5.799999998882413,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3,
+              "p95": 3.599999999627471,
+              "mean": 3.073999999985099,
+              "min": 2.799999998882413,
+              "max": 4
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.699999999254942,
+              "mean": 3.0630000000074507,
+              "min": 2.699999999254942,
+              "max": 5.800000000745058,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 2.900000000372529,
+              "p95": 3.5,
+              "mean": 2.992999999988824,
+              "min": 2.799999998882413,
+              "max": 3.700000001117587
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.00019999999925494194,
+              "mean": 0.00010499999998137355,
+              "min": 0,
+              "max": 0.00019999999925494194,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.2999999988824129,
+              "p95": 0.40000000037252903,
+              "mean": 0.26600000001490115,
+              "min": 0.09999999962747097,
+              "max": 0.7000000011175871
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.00030000000074505807,
+              "mean": 0.0002450000000186265,
+              "min": 0.00009999999962747097,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.02300000000745058,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 200000,
+        "iterations": 40
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 32.30000000074506,
+              "p95": 37.59999999962747,
+              "mean": 32.82250000000931,
+              "min": 30.300000000745058,
+              "max": 37.80000000074506,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 29.90000000037253,
+              "p95": 38.29999999888241,
+              "mean": 30.835000000009313,
+              "min": 28.59999999962747,
+              "max": 45.30000000074506
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 34.399999998509884,
+              "p95": 44.09999999962747,
+              "mean": 34.48249999997206,
+              "min": 30.199999999254942,
+              "max": 47.5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 31.5,
+              "p95": 48.90000000037253,
+              "mean": 33.4375,
+              "min": 28.700000001117587,
+              "max": 55.5
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.0005,
+              "mean": 0.00016500000003725291,
+              "min": 0,
+              "max": 0.0005,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1,
+              "p95": 2.300000000745058,
+              "mean": 1.1799999999813735,
+              "min": 0.7999999988824129,
+              "max": 2.699999999254942
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00030000000074505807,
+              "p95": 0.0006000000014901161,
+              "mean": 0.0003000000000000001,
+              "min": 0.00009999999962747097,
+              "max": 0.0006000000014901161,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.04249999998137355,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 30.40000000037253,
+              "p95": 37.19999999925494,
+              "mean": 30.989999999990687,
+              "min": 28.90000000037253,
+              "max": 41.100000001490116,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 29,
+              "p95": 32.40000000037253,
+              "mean": 29.482500000018625,
+              "min": 28.09999999962747,
+              "max": 38.40000000037253
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 32,
+              "p95": 48,
+              "mean": 34.25249999999069,
+              "min": 29.09999999962747,
+              "max": 54.70000000111759,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 33.70000000111759,
+              "p95": 40.40000000037253,
+              "mean": 34.02750000003725,
+              "min": 29,
+              "max": 43.90000000037253
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.0005,
+              "mean": 0.00018000000007450582,
+              "min": 0,
+              "max": 0.0005,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1,
+              "p95": 2.400000000372529,
+              "mean": 1.1924999999813735,
+              "min": 0.8000000007450581,
+              "max": 2.699999999254942
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00030000000074505807,
+              "p95": 0.0006999999992549419,
+              "mean": 0.0003399999999441208,
+              "min": 0.00019999999925494194,
+              "max": 0.0006999999992549419,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.04499999997206032,
+              "min": 0,
+              "max": 0.19999999925494194
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 29.90000000037253,
+              "p95": 32.80000000074506,
+              "mean": 30.089999999990688,
+              "min": 28.59999999962747,
+              "max": 35.30000000074506,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 29.40000000037253,
+              "p95": 33.70000000111759,
+              "mean": 29.857500000018625,
+              "min": 28.299999998882413,
+              "max": 38.19999999925494
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 31.800000000745058,
+              "p95": 36.79999999888241,
+              "mean": 32.142499999981375,
+              "min": 28.799999998882413,
+              "max": 37.5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 31.700000001117587,
+              "p95": 36.399999998509884,
+              "mean": 32.175,
+              "min": 29.09999999962747,
+              "max": 38.20000000111759
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00010000000149011611,
+              "p95": 0.00030000000074505807,
+              "mean": 0.0001400000000372529,
+              "min": 0,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1.199999999254942,
+              "p95": 2.300000000745058,
+              "mean": 1.2649999999906867,
+              "min": 0.7999999988824129,
+              "max": 2.599999999627471
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00030000000074505807,
+              "p95": 0.000599999999627471,
+              "mean": 0.00030499999998137366,
+              "min": 0.00019999999925494194,
+              "max": 0.000599999999627471,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.047500000009313224,
+              "min": 0,
+              "max": 0.19999999925494194
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 500000,
+        "iterations": 20
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 64,
+              "p95": 69.20000000111759,
+              "mean": 64.02000000001863,
+              "min": 61.90000000037253,
+              "max": 69.20000000111759,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 64.09999999962747,
+              "p95": 73.59999999962747,
+              "mean": 65.65999999996275,
+              "min": 61.899999998509884,
+              "max": 73.59999999962747
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 65.89999999850988,
+              "p95": 74.19999999925494,
+              "mean": 66.50999999996274,
+              "min": 62.600000001490116,
+              "max": 74.19999999925494,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 66.09999999962747,
+              "p95": 93.80000000074506,
+              "mean": 67.89000000003725,
+              "min": 62.70000000111759,
+              "max": 93.80000000074506
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.000400000000372529,
+              "mean": 0.00018500000005587934,
+              "min": 0,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.400000000372529,
+              "p95": 3.900000000372529,
+              "mean": 1.6050000000745057,
+              "min": 1.199999999254942,
+              "max": 3.900000000372529
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00030000000074505807,
+              "p95": 0.0005,
+              "mean": 0.00031500000003725304,
+              "min": 0.00019999999925494194,
+              "max": 0.0005,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0.09999999962747097,
+              "p95": 0.10000000149011612,
+              "mean": 0.059999999962747096,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 67.30000000074506,
+              "p95": 96.20000000111759,
+              "mean": 70.00999999996274,
+              "min": 63.80000000074506,
+              "max": 96.20000000111759,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 64.19999999925494,
+              "p95": 68.80000000074506,
+              "mean": 64.10499999998137,
+              "min": 61.80000000074506,
+              "max": 68.80000000074506
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 67.70000000111759,
+              "p95": 97.10000000149012,
+              "mean": 70.60000000009313,
+              "min": 62.59999999962747,
+              "max": 97.10000000149012,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 64.40000000037253,
+              "p95": 69.39999999850988,
+              "mean": 64.20499999998137,
+              "min": 61.600000001490116,
+              "max": 69.39999999850988
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.0005,
+              "mean": 0.0001849999999627471,
+              "min": 0,
+              "max": 0.0005,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.300000000745058,
+              "p95": 3.599999999627471,
+              "mean": 1.5599999999627472,
+              "min": 1.099999999627471,
+              "max": 3.599999999627471
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.0005,
+              "mean": 0.00031500000003725304,
+              "min": 0.00019999999925494194,
+              "max": 0.0005,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0.09999999962747097,
+              "p95": 0.10000000149011612,
+              "mean": 0.060000000055879354,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 62.59999999962747,
+              "p95": 64.80000000074506,
+              "mean": 62.605000000074504,
+              "min": 61.399999998509884,
+              "max": 64.80000000074506,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 63.90000000037253,
+              "p95": 84.09999999962747,
+              "mean": 65.24500000001862,
+              "min": 61.19999999925494,
+              "max": 84.09999999962747
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 66.09999999962747,
+              "p95": 76.09999999962747,
+              "mean": 66.36500000003726,
+              "min": 62.19999999925494,
+              "max": 76.09999999962747,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 64.40000000037253,
+              "p95": 72.90000000037253,
+              "mean": 65.15500000007451,
+              "min": 62.09999999962747,
+              "max": 72.90000000037253
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.000400000000372529,
+              "mean": 0.00017999999998137355,
+              "min": 0,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.699999999254942,
+              "p95": 3.5,
+              "mean": 1.8300000000745058,
+              "min": 1.3999999985098839,
+              "max": 3.5
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000599999999627471,
+              "mean": 0.0002999999999068678,
+              "min": 0.00009999999962747097,
+              "max": 0.000599999999627471,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0.09999999962747097,
+              "p95": 0.10000000149011612,
+              "mean": 0.05,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "syncLoop",
+      "config": {},
+      "runs": [
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        },
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        },
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 50000,
+        "iterations": 5
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 25,
+            "p95": 26.800000000745058,
+            "mean": 23.640000000223516,
+            "min": 20,
+            "max": 26.800000000745058
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 13.900000000372529,
+            "p95": 31.40000000037253,
+            "mean": 18.6,
+            "min": 13.199999999254942,
+            "max": 31.40000000037253
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 14,
+            "p95": 21.5,
+            "mean": 16.4,
+            "min": 12.700000001117587,
+            "max": 21.5
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 1.700000001117587,
+            "p95": 1.8999999985098839,
+            "mean": 1.7399999998509883,
+            "min": 1.599999999627471,
+            "max": 1.8999999985098839
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 24.300000000745058,
+            "p95": 26.5,
+            "mean": 23.43999999985099,
+            "min": 19.699999999254942,
+            "max": 26.5
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 13.5,
+            "p95": 33.90000000037253,
+            "mean": 17.479999999701977,
+            "min": 12.899999998509884,
+            "max": 33.90000000037253
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 21.40000000037253,
+            "p95": 22.40000000037253,
+            "mean": 18.319999999925493,
+            "min": 12.799999998882413,
+            "max": 22.40000000037253
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 1.699999999254942,
+            "p95": 1.900000000372529,
+            "mean": 1.7199999999254942,
+            "min": 1.599999999627471,
+            "max": 1.900000000372529
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 24.5,
+            "p95": 24.899999998509884,
+            "mean": 22.719999999925495,
+            "min": 19.100000001490116,
+            "max": 24.899999998509884
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 13.599999999627471,
+            "p95": 32,
+            "mean": 16.880000000074507,
+            "min": 12.299999998882413,
+            "max": 32
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 14.200000001117587,
+            "p95": 21.799999998882413,
+            "mean": 16.3,
+            "min": 12,
+            "max": 21.799999998882413
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 1.900000000372529,
+            "p95": 2,
+            "mean": 1.8600000001490116,
+            "min": 1.699999999254942,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 200000,
+        "iterations": 5
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 74.09999999962747,
+            "p95": 98.30000000074506,
+            "mean": 79.6199999999255,
+            "min": 71.29999999888241,
+            "max": 98.30000000074506
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 66.19999999925494,
+            "p95": 87.5,
+            "mean": 68.3199999999255,
+            "min": 56.80000000074506,
+            "max": 87.5
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 64.09999999962747,
+            "p95": 70.59999999962747,
+            "mean": 65.02000000029803,
+            "min": 63.100000001490116,
+            "max": 70.59999999962747
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 1.699999999254942,
+            "p95": 2.100000001490116,
+            "mean": 1.7800000000745058,
+            "min": 1.599999999627471,
+            "max": 2.100000001490116
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 76.40000000037253,
+            "p95": 92.5,
+            "mean": 80.24000000022352,
+            "min": 72.20000000111759,
+            "max": 92.5
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 64.40000000037253,
+            "p95": 90.79999999888241,
+            "mean": 68.06000000014902,
+            "min": 55.80000000074506,
+            "max": 90.79999999888241
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 65.90000000037253,
+            "p95": 68.90000000037253,
+            "mean": 65.4199999999255,
+            "min": 62.59999999962747,
+            "max": 68.90000000037253
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 1.700000001117587,
+            "p95": 1.900000000372529,
+            "mean": 1.7400000002235174,
+            "min": 1.599999999627471,
+            "max": 1.900000000372529
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 72.10000000149012,
+            "p95": 90.09999999962747,
+            "mean": 75.7,
+            "min": 70,
+            "max": 90.09999999962747
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 64,
+            "p95": 96.30000000074506,
+            "mean": 67.6800000000745,
+            "min": 54.80000000074506,
+            "max": 96.30000000074506
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 63.600000001490116,
+            "p95": 80.5,
+            "mean": 63.7,
+            "min": 44.899999998509884,
+            "max": 80.5
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2.200000001117587,
+            "p95": 11.099999999627471,
+            "mean": 4.020000000298023,
+            "min": 1.900000000372529,
+            "max": 11.099999999627471
+          }
+        }
+      ]
+    },
+    {
+      "version": "v5",
+      "echartsVersion": "5.6.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 500000,
+        "iterations": 3
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 177.5,
+            "p95": 183.40000000037253,
+            "mean": 174.5666666670392,
+            "min": 162.80000000074506,
+            "max": 183.40000000037253
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 158.5,
+            "p95": 176.59999999962747,
+            "mean": 162.6999999998758,
+            "min": 153,
+            "max": 176.59999999962747
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 151.69999999925494,
+            "p95": 162.2000000011176,
+            "mean": 154.60000000024834,
+            "min": 149.90000000037253,
+            "max": 162.2000000011176
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.099999999627471,
+            "p95": 2.199999999254942,
+            "mean": 2.033333333209157,
+            "min": 1.800000000745058,
+            "max": 2.199999999254942
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 181.2999999988824,
+            "p95": 188,
+            "mean": 180.39999999975166,
+            "min": 171.90000000037253,
+            "max": 188
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 154.69999999925494,
+            "p95": 158,
+            "mean": 155.4333333335817,
+            "min": 153.60000000149012,
+            "max": 158
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 184.5,
+            "p95": 282.1000000014901,
+            "mean": 215.10000000024834,
+            "min": 178.69999999925494,
+            "max": 282.1000000014901
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.799999998882413,
+            "p95": 2.800000000745058,
+            "mean": 2.7666666669150195,
+            "min": 2.700000001117587,
+            "max": 2.800000000745058
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 186.30000000074506,
+            "p95": 190,
+            "mean": 184.03333333383003,
+            "min": 175.80000000074506,
+            "max": 190
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 187,
+            "p95": 196.09999999962747,
+            "mean": 184.3666666665425,
+            "min": 170,
+            "max": 196.09999999962747
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 168.5,
+            "p95": 215.59999999962747,
+            "mean": 183.16666666666666,
+            "min": 165.40000000037253,
+            "max": 215.59999999962747
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.099999999627471,
+            "p95": 2.200000001117587,
+            "mean": 2.1000000002483525,
+            "min": 2,
+            "max": 2.200000001117587
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 10000,
+        "iterations": 200
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 0.8000000007450581,
+            "mean": 0.54,
+            "min": 0.3999999985098839,
+            "max": 1.200000001117587,
+            "batched": false,
+            "allocBytesPerCall": 1062082
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000007499999972060322,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 0.8000000007450581,
+            "mean": 0.5210000000055879,
+            "min": 0.3999999985098839,
+            "max": 1,
+            "batched": false,
+            "allocBytesPerCall": 1062082
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000010000000009313225,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.00000750000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 200,
+            "median": 0.5,
+            "p95": 0.7999999988824129,
+            "mean": 0.4985000000055879,
+            "min": 0.2999999988824129,
+            "max": 1.099999999627471,
+            "batched": false,
+            "allocBytesPerCall": 1062082
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000007500000018626452,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 40,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.0000125,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 50000,
+        "iterations": 100
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.400000000372529,
+            "p95": 12.900000000372529,
+            "mean": 4.394000000003725,
+            "min": 1.799999998882413,
+            "max": 20.59999999962747,
+            "batched": false,
+            "allocBytesPerCall": 5318530
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000014999999944120644,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.400000000372529,
+            "p95": 12.100000001490116,
+            "mean": 4.36800000000745,
+            "min": 1.799999998882413,
+            "max": 16.90000000037253,
+            "batched": false,
+            "allocBytesPerCall": 5318530
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000019999999925494194,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 100,
+            "median": 2.300000000745058,
+            "p95": 12.400000000372529,
+            "mean": 4.3229999999888244,
+            "min": 1.800000000745058,
+            "max": 20.300000000745058,
+            "batched": false,
+            "allocBytesPerCall": 5318530
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000014999999944120644,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 200000,
+        "iterations": 40
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 18.699999999254942,
+            "p95": 30.40000000037253,
+            "mean": 18.235000000009315,
+            "min": 9,
+            "max": 31.600000001490116,
+            "batched": false,
+            "allocBytesPerCall": 19994183
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000019999999925494194,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 18.90000000037253,
+            "p95": 32.59999999962747,
+            "mean": 18.277499999990688,
+            "min": 8.900000000372529,
+            "max": 33.5,
+            "batched": false,
+            "allocBytesPerCall": 19990079
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000019999999925494194,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 40,
+            "median": 23.09999999962747,
+            "p95": 40.79999999888241,
+            "mean": 20.202499999990685,
+            "min": 8.799999998882413,
+            "max": 44.5,
+            "batched": false,
+            "allocBytesPerCall": 19994183
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000014999999944120644,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 1,
+        "points": 500000,
+        "iterations": 20
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 44.70000000111759,
+            "p95": 77.09999999962747,
+            "mean": 49.96000000005588,
+            "min": 41.59999999962747,
+            "max": 77.09999999962747,
+            "batched": false,
+            "allocBytesPerCall": 49097666
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002999999998137355,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 43.90000000037253,
+            "p95": 76.40000000037253,
+            "mean": 48.38500000005588,
+            "min": 40,
+            "max": 76.40000000037253,
+            "batched": false,
+            "allocBytesPerCall": 49097666
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00009999999962747097,
+            "mean": 0.000014999999944120644,
+            "min": 0,
+            "max": 0.00009999999962747097,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 20,
+            "median": 43.59999999962747,
+            "p95": 80.69999999925494,
+            "mean": 48.52499999990687,
+            "min": 40.899999998509884,
+            "max": 80.69999999925494,
+            "batched": false,
+            "allocBytesPerCall": 49098027
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.0002000000011175871,
+            "mean": 0.000030000000074505808,
+            "min": 0,
+            "max": 0.0002000000011175871,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00019999999925494194,
+            "mean": 0.000015000000037252904,
+            "min": 0,
+            "max": 0.00019999999925494194,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "readInHotPath",
+      "config": {
+        "seriesCount": 4,
+        "points": 50000,
+        "iterations": 60
+      },
+      "runs": [
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 18.699999999254942,
+            "p95": 29.5,
+            "mean": 18.664999999975166,
+            "min": 9,
+            "max": 35.5,
+            "batched": false,
+            "allocBytesPerCall": 19634248
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000025,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.000015000000037252904,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 18.699999999254942,
+            "p95": 28.90000000037253,
+            "mean": 18.36166666668529,
+            "min": 8.800000000745058,
+            "max": 37,
+            "batched": false,
+            "allocBytesPerCall": 19636594
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        },
+        {
+          "getOption() [public, deep clone]": {
+            "n": 60,
+            "median": 18.399999998509884,
+            "p95": 34.40000000037253,
+            "mean": 18.46500000000621,
+            "min": 8.799999998882413,
+            "max": 37.20000000111759,
+            "batched": false,
+            "allocBytesPerCall": 19635093
+          },
+          "getModel().option [internal, no clone]": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.00002000000001862645,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          },
+          "own state from dataZoom events": {
+            "n": 20,
+            "median": 0,
+            "p95": 0.00010000000149011611,
+            "mean": 0.0000150000000372529,
+            "min": 0,
+            "max": 0.00010000000149011611,
+            "batched": true,
+            "allocBytesPerCall": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 10000,
+        "iterations": 100
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.300000000745058,
+              "p95": 4.599999999627471,
+              "mean": 3.428999999985099,
+              "min": 2.899999998509884,
+              "max": 5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.099999999627471,
+              "p95": 3.800000000745058,
+              "mean": 3.1629999999888243,
+              "min": 2.899999998509884,
+              "max": 4.199999999254942
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3,
+              "p95": 3.800000000745058,
+              "mean": 3.1419999999925494,
+              "min": 2.800000000745058,
+              "max": 4.800000000745058,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.199999999254942,
+              "p95": 3.800000000745058,
+              "mean": 3.233999999985099,
+              "min": 3,
+              "max": 4.900000000372529
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002000000011175871,
+              "mean": 0.00010499999998137355,
+              "min": 0,
+              "max": 0.0002000000011175871,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.30000000074505806,
+              "p95": 0.40000000037252903,
+              "mean": 0.315,
+              "min": 0.19999999925494194,
+              "max": 0.8999999985098839
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000400000000372529,
+              "mean": 0.00026000000005587943,
+              "min": 0.00019999999925494194,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.025,
+              "min": 0,
+              "max": 0.19999999925494194
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.299999998882413,
+              "p95": 4.599999999627471,
+              "mean": 3.411000000014901,
+              "min": 2.899999998509884,
+              "max": 4.800000000745058,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.099999999627471,
+              "p95": 3.900000000372529,
+              "mean": 3.196000000014901,
+              "min": 2.799999998882413,
+              "max": 4
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3,
+              "p95": 4.100000001490116,
+              "mean": 3.1309999999776483,
+              "min": 2.799999998882413,
+              "max": 4.200000001117587,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.200000001117587,
+              "p95": 3.900000000372529,
+              "mean": 3.2930000000074506,
+              "min": 3,
+              "max": 4.5
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002999999988824129,
+              "mean": 0.00011499999994412066,
+              "min": 0,
+              "max": 0.0002999999988824129,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.2999999988824129,
+              "p95": 0.40000000037252903,
+              "mean": 0.28299999998882414,
+              "min": 0.10000000149011612,
+              "max": 0.6999999992549419
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000400000000372529,
+              "mean": 0.00025999999996274717,
+              "min": 0.00009999999962747097,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.09999999962747097,
+              "mean": 0.02399999998509884,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3.299999998882413,
+              "p95": 4.5,
+              "mean": 3.3690000000037252,
+              "min": 2.899999998509884,
+              "max": 5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.099999999627471,
+              "p95": 3.700000001117587,
+              "mean": 3.1780000000074504,
+              "min": 2.899999998509884,
+              "max": 5.099999999627471
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 100,
+              "median": 3,
+              "p95": 3.799999998882413,
+              "mean": 3.16,
+              "min": 2.800000000745058,
+              "max": 4.700000001117587,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 3.300000000745058,
+              "p95": 4.299999998882413,
+              "mean": 3.4080000000074504,
+              "min": 2.900000000372529,
+              "max": 5.699999999254942
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002999999988824129,
+              "mean": 0.00010499999998137355,
+              "min": 0,
+              "max": 0.0002999999988824129,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0.30000000074505806,
+              "p95": 0.40000000037252903,
+              "mean": 0.3069999999925494,
+              "min": 0.19999999925494194,
+              "max": 0.7000000011175871
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000400000000372529,
+              "mean": 0.0002649999999441207,
+              "min": 0.00019999999925494194,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 100,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.026000000014901162,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 200000,
+        "iterations": 40
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 29.90000000037253,
+              "p95": 37.40000000037253,
+              "mean": 31.00500000002794,
+              "min": 28.09999999962747,
+              "max": 50.40000000037253,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 28.800000000745058,
+              "p95": 38.29999999888241,
+              "mean": 29.585000000009313,
+              "min": 27.800000000745058,
+              "max": 42
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 30.200000001117587,
+              "p95": 35.90000000037253,
+              "mean": 30.80500000002794,
+              "min": 28.299999998882413,
+              "max": 37.5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 31.40000000037253,
+              "p95": 39,
+              "mean": 32.077499999990685,
+              "min": 28.40000000037253,
+              "max": 43.70000000111759
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.00030000000074505807,
+              "mean": 0.00017999999998137355,
+              "min": 0,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1.099999999627471,
+              "p95": 2.300000000745058,
+              "mean": 1.2199999999720603,
+              "min": 0.7999999988824129,
+              "max": 2.799999998882413
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0003999999985098839,
+              "p95": 0.000599999999627471,
+              "mean": 0.0003549999998882414,
+              "min": 0.00019999999925494194,
+              "max": 0.000599999999627471,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.0375,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 29.5,
+              "p95": 36.100000001490116,
+              "mean": 30.29499999997206,
+              "min": 28,
+              "max": 38.899999998509884,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 28.09999999962747,
+              "p95": 30.300000000745058,
+              "mean": 28.495000000018628,
+              "min": 27.5,
+              "max": 31.199999999254942
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 28.700000001117587,
+              "p95": 33.100000001490116,
+              "mean": 29.187500000046565,
+              "min": 27.799999998882413,
+              "max": 34.40000000037253,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 28.899999998509884,
+              "p95": 33.70000000111759,
+              "mean": 29.352499999990687,
+              "min": 27.90000000037253,
+              "max": 36.40000000037253
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00019999999925494194,
+              "p95": 0.0003999999985098839,
+              "mean": 0.0001849999999627471,
+              "min": 0,
+              "max": 0.0003999999985098839,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1,
+              "p95": 2.199999999254942,
+              "mean": 1.1774999999906868,
+              "min": 0.7999999988824129,
+              "max": 2.800000000745058
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0003999999985098839,
+              "p95": 0.000599999999627471,
+              "mean": 0.0003450000000186266,
+              "min": 0.00009999999962747097,
+              "max": 0.000599999999627471,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.03500000000931323,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 29.299999998882413,
+              "p95": 32.5,
+              "mean": 29.517499999981375,
+              "min": 27.90000000037253,
+              "max": 37.29999999888241,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 29.90000000037253,
+              "p95": 54.30000000074506,
+              "mean": 31.764999999990685,
+              "min": 28.09999999962747,
+              "max": 55.5
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 40,
+              "median": 28.699999999254942,
+              "p95": 31.5,
+              "mean": 28.967499999981374,
+              "min": 27.700000001117587,
+              "max": 32.40000000037253,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 29.300000000745058,
+              "p95": 35.80000000074506,
+              "mean": 30.115000000037252,
+              "min": 28.199999999254942,
+              "max": 43.30000000074506
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002000000011175871,
+              "mean": 0.00010499999998137355,
+              "min": 0,
+              "max": 0.0002000000011175871,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 1,
+              "p95": 1.6000000014901161,
+              "mean": 1.027500000037253,
+              "min": 0.7000000011175871,
+              "max": 1.699999999254942
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000400000000372529,
+              "mean": 0.00027500000000000007,
+              "min": 0.00019999999925494194,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 40,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.030000000027939677,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "overlayUpdate",
+      "config": {
+        "seriesCount": 1,
+        "points": 500000,
+        "iterations": 20
+      },
+      "runs": [
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 63.20000000111759,
+              "p95": 65.79999999888241,
+              "mean": 62.825,
+              "min": 60.40000000037253,
+              "max": 65.79999999888241,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 62.30000000074506,
+              "p95": 66.90000000037253,
+              "mean": 62.93500000005588,
+              "min": 60.70000000111759,
+              "max": 66.90000000037253
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 62.69999999925494,
+              "p95": 95.20000000111759,
+              "mean": 64.78500000005587,
+              "min": 60,
+              "max": 95.20000000111759,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 62.19999999925494,
+              "p95": 81.40000000037253,
+              "mean": 63.570000000018624,
+              "min": 59.80000000074506,
+              "max": 81.40000000037253
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002000000011175871,
+              "mean": 0.00010500000007450581,
+              "min": 0,
+              "max": 0.0002000000011175871,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.300000000745058,
+              "p95": 2,
+              "mean": 1.4050000000745058,
+              "min": 1.1000000014901161,
+              "max": 2
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.00030000000074505807,
+              "mean": 0.0002450000000186265,
+              "min": 0.00009999999962747097,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.025,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 63.5,
+              "p95": 73.5,
+              "mean": 63.725,
+              "min": 60,
+              "max": 73.5,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 61.40000000037253,
+              "p95": 64.69999999925494,
+              "mean": 61.59500000001863,
+              "min": 59.80000000074506,
+              "max": 64.69999999925494
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 60.80000000074506,
+              "p95": 63,
+              "mean": 60.95,
+              "min": 59.80000000074506,
+              "max": 63,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 61,
+              "p95": 64,
+              "mean": 61.304999999981376,
+              "min": 60.30000000074506,
+              "max": 64
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.00030000000074505807,
+              "mean": 0.00011000000005587935,
+              "min": 0,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.299999998882413,
+              "p95": 2.100000001490116,
+              "mean": 1.3650000000372529,
+              "min": 1.099999999627471,
+              "max": 2.100000001490116
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002999999988824129,
+              "p95": 0.000400000000372529,
+              "mean": 0.00025000000000000006,
+              "min": 0.00009999999962747097,
+              "max": 0.000400000000372529,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0,
+              "p95": 0.10000000149011612,
+              "mean": 0.025,
+              "min": 0,
+              "max": 0.10000000149011612
+            }
+          }
+        },
+        {
+          "setOption markLine (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 62.20000000111759,
+              "p95": 65.09999999962747,
+              "mean": 62.5,
+              "min": 61.19999999925494,
+              "max": 65.09999999962747,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 61.70000000111759,
+              "p95": 62.90000000037253,
+              "mean": 61.75499999998137,
+              "min": 60.79999999888241,
+              "max": 62.90000000037253
+            }
+          },
+          "setOption graphic (merge)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 61.70000000111759,
+              "p95": 64.20000000111759,
+              "mean": 61.825,
+              "min": 60.600000001490116,
+              "max": 64.20000000111759,
+              "batched": false
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 61.5,
+              "p95": 64.5,
+              "mean": 61.695000000018624,
+              "min": 60.79999999888241,
+              "max": 64.5
+            }
+          },
+          "zrender element .attr(shape)": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.00009999999962747097,
+              "p95": 0.0002000000011175871,
+              "mean": 0.00010499999998137355,
+              "min": 0,
+              "max": 0.0002000000011175871,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 1.300000000745058,
+              "p95": 2,
+              "mean": 1.4049999999813736,
+              "min": 1.099999999627471,
+              "max": 2
+            }
+          },
+          "DOM overlay transform": {
+            "updateOnly": {
+              "n": 20,
+              "median": 0.0002000000011175871,
+              "p95": 0.00030000000074505807,
+              "mean": 0.0002399999999441207,
+              "min": 0.00019999999925494194,
+              "max": 0.00030000000074505807,
+              "batched": true
+            },
+            "updateAndPaint": {
+              "n": 20,
+              "median": 0,
+              "p95": 0.19999999925494194,
+              "mean": 0.025,
+              "min": 0,
+              "max": 0.19999999925494194
+            }
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "syncLoop",
+      "config": {},
+      "runs": [
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        },
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        },
+        {
+          "mutual dispatch, no guard": {
+            "events": 400,
+            "capped": true
+          },
+          "mutual dispatch + $fromSync flag": {
+            "events": 2,
+            "capped": false
+          },
+          "mutual dispatch + epsilon compare": {
+            "events": 1,
+            "capped": false
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 50000,
+        "iterations": 5
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 25.700000001117587,
+            "p95": 26.799999998882413,
+            "mean": 23.760000000149013,
+            "min": 19.600000001490116,
+            "max": 26.799999998882413
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 15.5,
+            "p95": 32.19999999925494,
+            "mean": 19.7,
+            "min": 14.100000001490116,
+            "max": 32.19999999925494
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 19.5,
+            "p95": 24.09999999962747,
+            "mean": 18.319999999925493,
+            "min": 13.300000000745058,
+            "max": 24.09999999962747
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2,
+            "p95": 3,
+            "mean": 2.1599999997764825,
+            "min": 1.799999998882413,
+            "max": 3
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 21.799999998882413,
+            "p95": 26.300000000745058,
+            "mean": 22.59999999962747,
+            "min": 19.799999998882413,
+            "max": 26.300000000745058
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 14.400000000372529,
+            "p95": 33.09999999962747,
+            "mean": 17.760000000149013,
+            "min": 12.900000000372529,
+            "max": 33.09999999962747
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 20.700000001117587,
+            "p95": 23.200000001117587,
+            "mean": 18.420000000298025,
+            "min": 13,
+            "max": 23.200000001117587
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2.099999999627471,
+            "p95": 2.200000001117587,
+            "mean": 2,
+            "min": 1.699999999254942,
+            "max": 2.200000001117587
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 25.59999999962747,
+            "p95": 26.09999999962747,
+            "mean": 23.619999999925493,
+            "min": 19.59999999962747,
+            "max": 26.09999999962747
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 14.800000000745058,
+            "p95": 35.80000000074506,
+            "mean": 21.36000000014901,
+            "min": 13.399999998509884,
+            "max": 35.80000000074506
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 21.40000000037253,
+            "p95": 21.799999998882413,
+            "mean": 18.219999999925495,
+            "min": 13,
+            "max": 21.799999998882413
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2,
+            "p95": 2.599999999627471,
+            "mean": 2.1199999999254944,
+            "min": 1.900000000372529,
+            "max": 2.599999999627471
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 200000,
+        "iterations": 5
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 72.90000000037253,
+            "p95": 97.19999999925494,
+            "mean": 78.65999999977649,
+            "min": 71.29999999888241,
+            "max": 97.19999999925494
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 66.39999999850988,
+            "p95": 91.20000000111759,
+            "mean": 69.46000000014901,
+            "min": 55.80000000074506,
+            "max": 91.20000000111759
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 63.79999999888241,
+            "p95": 80.59999999962747,
+            "mean": 64.48000000007451,
+            "min": 54.600000001490116,
+            "max": 80.59999999962747
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2,
+            "p95": 10.599999999627471,
+            "mean": 3.8,
+            "min": 1.900000000372529,
+            "max": 10.599999999627471
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 72.09999999962747,
+            "p95": 94.59999999962747,
+            "mean": 76.1800000000745,
+            "min": 69.69999999925494,
+            "max": 94.59999999962747
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 64.90000000037253,
+            "p95": 90.90000000037253,
+            "mean": 68,
+            "min": 56.20000000111759,
+            "max": 90.90000000037253
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 61.90000000037253,
+            "p95": 83.90000000037253,
+            "mean": 64.75999999977648,
+            "min": 54.09999999962747,
+            "max": 83.90000000037253
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2.400000000372529,
+            "p95": 9.099999999627471,
+            "mean": 3.7599999997764826,
+            "min": 2,
+            "max": 9.099999999627471
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 5,
+            "median": 71.09999999962747,
+            "p95": 96.90000000037253,
+            "mean": 77.24000000022352,
+            "min": 69.80000000074506,
+            "max": 96.90000000037253
+          },
+          "sampling: 'lttb'": {
+            "n": 5,
+            "median": 65.40000000037253,
+            "p95": 88.5,
+            "mean": 68.1,
+            "min": 55.5,
+            "max": 88.5
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 5,
+            "median": 62.90000000037253,
+            "p95": 90.90000000037253,
+            "mean": 66.4,
+            "min": 53.79999999888241,
+            "max": 90.90000000037253
+          },
+          "app-side 500-point summary": {
+            "n": 5,
+            "median": 2,
+            "p95": 10.199999999254942,
+            "mean": 3.6,
+            "min": 1.900000000372529,
+            "max": 10.199999999254942
+          }
+        }
+      ]
+    },
+    {
+      "version": "v6",
+      "echartsVersion": "6.1.0",
+      "scenario": "initialRender",
+      "config": {
+        "points": 500000,
+        "iterations": 3
+      },
+      "runs": [
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 167.7000000011176,
+            "p95": 179.40000000037253,
+            "mean": 169.23333333370587,
+            "min": 160.59999999962747,
+            "max": 179.40000000037253
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 160.09999999962747,
+            "p95": 191.69999999925494,
+            "mean": 169.6999999998758,
+            "min": 157.30000000074506,
+            "max": 191.69999999925494
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 156.09999999962747,
+            "p95": 157.5,
+            "mean": 154.5666666664183,
+            "min": 150.09999999962747,
+            "max": 157.5
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.100000001490116,
+            "p95": 2.299999998882413,
+            "mean": 2.1666666666666665,
+            "min": 2.099999999627471,
+            "max": 2.299999998882413
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 166.69999999925494,
+            "p95": 182.09999999962747,
+            "mean": 169.23333333308497,
+            "min": 158.90000000037253,
+            "max": 182.09999999962747
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 155.80000000074506,
+            "p95": 156.90000000037253,
+            "mean": 155.9333333335817,
+            "min": 155.09999999962747,
+            "max": 156.90000000037253
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 153.09999999962747,
+            "p95": 185.10000000149012,
+            "mean": 162.3000000001242,
+            "min": 148.69999999925494,
+            "max": 185.10000000149012
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.400000000372529,
+            "p95": 2.900000000372529,
+            "mean": 2.5333333338300386,
+            "min": 2.300000000745058,
+            "max": 2.900000000372529
+          }
+        },
+        {
+          "plain (all points)": {
+            "n": 3,
+            "median": 186.90000000037253,
+            "p95": 188.10000000149012,
+            "mean": 183.60000000024834,
+            "min": 175.7999999988824,
+            "max": 188.10000000149012
+          },
+          "sampling: 'lttb'": {
+            "n": 3,
+            "median": 159.09999999962747,
+            "p95": 161.39999999850988,
+            "mean": 158.3666666659216,
+            "min": 154.59999999962747,
+            "max": 161.39999999850988
+          },
+          "large: true (+ sampling lttb)": {
+            "n": 3,
+            "median": 150.7999999988824,
+            "p95": 157.2000000011176,
+            "mean": 151.66666666666666,
+            "min": 147,
+            "max": 157.2000000011176
+          },
+          "app-side 500-point summary": {
+            "n": 3,
+            "median": 2.400000000372529,
+            "p95": 2.799999998882413,
+            "mean": 2.533333333209157,
+            "min": 2.400000000372529,
+            "max": 2.799999998882413
+          }
+        }
+      ]
+    }
+  ]
+}

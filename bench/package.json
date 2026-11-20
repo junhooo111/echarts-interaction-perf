@@ -1,0 +1,18 @@
+{
+  "name": "echarts-interaction-perf-bench",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible micro-benchmarks for ECharts interaction hot paths (no product code).",
+  "scripts": {
+    "build": "vite build",
+    "bench": "node run.mjs"
+  },
+  "dependencies": {
+    "echarts-v5": "npm:echarts@5.6.0",
+    "echarts-v6": "npm:echarts@6.1.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.65.1",
+    "vite": "8.3.8"
+  }
+}
